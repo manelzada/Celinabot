@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node .",
+    "start": "pm2 start ./dist/index.js --name celina-bot",
     "dev": "nodemon --config nodemon.json ./src/index.ts"
   },
   "devDependencies": {
