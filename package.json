@@ -1,5 +1,5 @@
 {
-  "name": "Celinabot",
+  "name": "celina-bot",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
