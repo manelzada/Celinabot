@@ -25,7 +25,7 @@ export default class CommandLoader {
   }
 
   async loadCommands() {
-    readFile('src/commands', (error, Command) => {
+    readFile('src/commands', (error: any, Command: any) => {
       if (error) throw new Error(error);
 
       const command = new Command(this.client);
